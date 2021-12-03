@@ -2,7 +2,7 @@
 
 
 ### iOS-Interview-University  📲 💻 🖥
-**A journey: from junior to the iOS Tech Lead**
+**My journey: from junior to the iOS Tech Lead**
 
 Where it all begins: https://www.youtube.com/watch?v=MnrJzXM7a6o
 
