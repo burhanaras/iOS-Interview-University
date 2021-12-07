@@ -52,26 +52,37 @@ func plusOne(digits: inout [Int]) -> [Int] {
  */
 
 
+// Tests
 var digits = [1,2,3,4]
 plusOne(digits: &digits)
+assert(digits == [1,2,3,5])
 
 digits = [1,2,3,9]
 plusOne(digits: &digits)
+assert(digits == [1,2,4,0])
 
 digits = [9,9]
 plusOne(digits: &digits)
+assert(digits == [1,0,0])
 
 digits = [9]
 plusOne(digits: &digits)
+assert(digits == [1,0])
 
 digits = [0]
 plusOne(digits: &digits)
+assert(digits == [1])
 
 digits = []
 plusOne(digits: &digits)
+assert(digits == [])
 
 
+
+
+//The Second Solution
 func plusOne_SecondSolution(digits: inout [Int]) -> [Int]{
+    guard digits.count > 0 else { return [] }
     var sum = 0
     for (index, number) in digits.enumerated() {
         sum += number * Int(pow(10.0, Double(digits.count - 1 - index)))
@@ -99,20 +110,27 @@ func plusOne_SecondSolution(digits: inout [Int]) -> [Int]{
  */
 
 
+// Tests
 var digitz = [1,2,3,4]
 plusOne_SecondSolution(digits: &digitz)
+assert(digitz == [1,2,3,5])
 
 digitz = [1,2,3,9]
 plusOne_SecondSolution(digits: &digitz)
+assert(digitz == [1,2,4,0])
 
 digitz = [9,9]
 plusOne_SecondSolution(digits: &digitz)
+assert(digitz == [1,0,0])
 
 digitz = [9]
 plusOne_SecondSolution(digits: &digitz)
+assert(digitz == [1,0])
 
 digitz = [0]
 plusOne_SecondSolution(digits: &digitz)
+assert(digitz == [1])
 
 digitz = []
 plusOne_SecondSolution(digits: &digitz)
+assert(digitz == [])
