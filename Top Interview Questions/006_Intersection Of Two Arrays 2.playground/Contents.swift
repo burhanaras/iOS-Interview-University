@@ -42,9 +42,10 @@ func findIntersection(of nums0: [Int], and nums1: [Int]) -> [Int] {
  If they exist, we decrement value of dictionary item, then put number into intersection array.
  */
 
-findIntersection(of: [1,2,2,1], and: [2,2])
-findIntersection(of: [4,9,5], and: [9,4,9,8,4])
-findIntersection(of: [1,2], and: [3,4])
+//Tests
+assert([2,2] == findIntersection(of: [1,2,2,1], and: [2,2]))
+assert([9,4] == findIntersection(of: [4,9,5], and: [9,4,9,8,4]))
+assert([] == findIntersection(of: [1,2], and: [3,4]))
 
 
 /*
@@ -88,6 +89,10 @@ func findIntersection_Of_SortedArrays(of nums0: [Int], and nums1: [Int]) -> [Int
     Space Complexity: O(1) Constant space
  */
 
-findIntersection_Of_SortedArrays(of: [1,1,2,2], and: [2,2])
-findIntersection_Of_SortedArrays(of: [4,5,9], and: [4,4,8,9,9])
-findIntersection_Of_SortedArrays(of: [1,2], and: [3,4])
+// Test
+assert([2,2] == findIntersection_Of_SortedArrays(of: [1,1,2,2], and: [2,2]))
+assert([4,9] == findIntersection_Of_SortedArrays(of: [4,5,9], and: [4,4,8,9,9]))
+assert([] == findIntersection_Of_SortedArrays(of: [1,2], and: [3,4]))
+
+
+
