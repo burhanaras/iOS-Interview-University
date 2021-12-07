@@ -14,6 +14,8 @@ Where it all begins: https://www.youtube.com/watch?v=MnrJzXM7a6o
 5. [LeetCode: Single Number](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/549/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/005_Single%20Number.playground/Contents.swift) - t=O(N), s=O(N)
 6. [LeetCode: Intersection Of Two Arrays 2](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/674/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/006_Intersection%20Of%20Two%20Arrays%202.playground/Contents.swift) - t=O(N+M), s=O(N). For sorted arrays: t=O(min(N,M)), s=O(1)
 7. [LeetCode: Plus One](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/559/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/007_Plus%20One.playground/Contents.swift) - t=O(N), s=O(1)
+8. [LeetCode: Move Zeroes](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/567/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/008_Move_Zeroes.playground/Contents.swift
+) - t=O(N), s=O(1)
 
 
 
