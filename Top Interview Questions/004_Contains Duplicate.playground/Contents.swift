@@ -33,6 +33,7 @@ func containsDuplicate(nums: [Int]) -> Bool {
     Space Complexity: O(1) Linear space
  */
 
-containsDuplicate(nums: [1,2,3,1])
-containsDuplicate(nums: [1,2,3,4])
-containsDuplicate(nums: [])
+//Tests
+assert(containsDuplicate(nums: [1,2,3,1]) == true)
+assert(containsDuplicate(nums: [1,2,3,4]) == false)
+assert(containsDuplicate(nums: []) == false)

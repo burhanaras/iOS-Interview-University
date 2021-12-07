@@ -43,8 +43,10 @@ func singleNumber_ConstantSpace(of nums: [Int]) -> Int {
  Final when ZERO is XOR'ed with the Single Number (which we are looking for), then result is Single Number itself.
  */
 
-singleNumber_ConstantSpace(of: [1,2,3,4,1,2,3])
-singleNumber_ConstantSpace(of: [1])
+
+// Tests
+assert(4 == singleNumber_ConstantSpace(of: [1,2,3,4,1,2,3]))
+assert(1 == singleNumber_ConstantSpace(of: [1]))
 
 
 
@@ -66,5 +68,7 @@ func singleNumber_WithLinearSpace(of nums: [Int]) -> Int {
  All frequencies are 2 except one number. That is the number we look for.
  */
 
-singleNumber_WithLinearSpace(of: [1,2,3,4,1,2,3])
-singleNumber_WithLinearSpace(of: [1])
+
+// Tests
+assert(4 == singleNumber_WithLinearSpace(of: [1,2,3,4,1,2,3]))
+assert(1 == singleNumber_WithLinearSpace(of: [1]))
