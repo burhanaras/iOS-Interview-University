@@ -26,6 +26,7 @@
  
  */
 
+import Darwin
 
 func plusOne(digits: inout [Int]) -> [Int] {
     guard digits.count > 0 else { return [] }
@@ -68,3 +69,50 @@ plusOne(digits: &digits)
 
 digits = []
 plusOne(digits: &digits)
+
+
+func plusOne_SecondSolution(digits: inout [Int]) -> [Int]{
+    var sum = 0
+    for (index, number) in digits.enumerated() {
+        sum += number * Int(pow(10.0, Double(digits.count - 1 - index)))
+    }
+    sum = sum + 1
+    
+    var pointer = digits.count - 1
+    while sum > 0 && pointer >= 0 {
+        let digit = sum % 10
+        sum = sum / 10
+        digits[pointer] = digit
+        pointer -= 1
+    }
+    if sum > 0 { digits.insert(sum, at: 0)}
+    return digits
+}
+
+/*
+    Time Complexity: O(N) Linear time
+    Space Complexity: O(1) Constant time
+    Explanation:
+    We turn array into an Int.
+    Increment by one.
+    Then turn number into an array.
+ */
+
+
+var digitz = [1,2,3,4]
+plusOne_SecondSolution(digits: &digitz)
+
+digitz = [1,2,3,9]
+plusOne_SecondSolution(digits: &digitz)
+
+digitz = [9,9]
+plusOne_SecondSolution(digits: &digitz)
+
+digitz = [9]
+plusOne_SecondSolution(digits: &digitz)
+
+digitz = [0]
+plusOne_SecondSolution(digits: &digitz)
+
+digitz = []
+plusOne_SecondSolution(digits: &digitz)
