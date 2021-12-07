@@ -44,8 +44,10 @@ func rotateArray_0(of array: inout [Int], times k : Int) {
     Space Complecity: O(1) Constant Time
  */
 
+// Tests
 var array = [1,2,3,4,5,6,7]
 rotateArray_0(of: &array, times: 3)
+assert(array == [5,6,7,1,2,3,4])
 
 
 
@@ -77,9 +79,10 @@ func rotateArray(of array: inout [Int], times k: Int){
     Space Complexity: O(1) Constant Space
  */
 
+//Tests
 array = [1,2,3,4,5,6,7]
 rotateArray(of: &array, times: 3)
-
+assert(array == [5,6,7,1,2,3,4])
 
 
 
@@ -96,10 +99,16 @@ func rotateArray_SwiftyWay_0(of array: inout [Int], times k: Int) {
     let times = k % array.count
     array = Array(array[(array.count - times)...]) + Array(array[...times])
 }
+/*
+    Time Complexity: O(N) Linear Time
+    Space Complexity: O(N) Linear Space
+ */
 
+
+// Tests
 array = [1,2,3,4,5,6,7]
 rotateArray_SwiftyWay_0(of: &array, times: 3)
-
+assert(array == [5,6,7,1,2,3,4])
 
 
 
@@ -123,8 +132,9 @@ func rotateArray_SwiftyWay_1(of array: inout [Int], times k: Int){
     Space Complexity: O(1) Constant Space
  */
 
+// Tests
 array = [1,2,3,4,5,6,7]
 rotateArray_SwiftyWay_1(of: &array, times: 3)
-
+assert(array == [5,6,7,1,2,3,4])
 
 
