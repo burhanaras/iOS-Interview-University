@@ -48,3 +48,21 @@ var input: [Character] = ["H","a","n","n","a","h"]
 reverseString(&input)
 expected = ["h","a","n","n","a","H"]
 XCTAssertEqual(expected, input)
+
+
+
+
+
+
+
+// MARK: - Swifty ways
+
+func reverse(string: String) -> String {
+    let chars = Array(string)
+    var reversed = [Character]()
+    
+    for char in chars {
+        reversed.insert(char, at: 0)
+    }
+    return String(reversed)
+}
