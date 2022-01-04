@@ -20,6 +20,8 @@ Where it all begins: https://www.youtube.com/watch?v=MnrJzXM7a6o
 11. [LeetCode: Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/011_Reverse_String.playground/Contents.swift) - t=O(N), s=O(1)
 12. [Leetcode: Reverse Integer](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/880/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/012_Reverse_Integer.playground/Contents.swift) - t=O(N), s=O(1)
 13. [LeetCode: First Unique Character in a String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/881/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/013_First_Unique_Character.playground/Contents.swift) - t=O(N), s=O(N)
+14. [LeetCode: Valid Anagram](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/882/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/014_Valid_Anagram.playground/Contents.swift) - t=O(N), s=O(N)
+15. [LeetCode: Valid Palindrome](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/883/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/015_Valid_Palindrome.playground/Contents.swift) - t=O(N), s=O(N)
 
 
 
