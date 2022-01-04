@@ -17,6 +17,8 @@ Where it all begins: https://www.youtube.com/watch?v=MnrJzXM7a6o
 8. [LeetCode: Move Zeroes](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/567/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/008_Move_Zeroes.playground/Contents.swift) - t=O(N), s=O(1)
 9. [LeetCode: Two Sum](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/546/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/009_Two%20Sum.playground/Contents.swift) - t=O(N), s=O(N)
 10. [LeetCode: Valid Sudoku](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/769/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/010_Valid%20Sudoku.playground/Contents.swift) - t=O(N^2), s=O(N^2)
+11. [LeetCode: Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/011_Reverse_String.playground/Contents.swift) - t=O(N), s=O(1)
+12. [Leetcode: reverse Integer](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/880/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/012_Reverse_Integer.playground/Contents.swift) - t=O(N), s=O(1)
 
 
 
