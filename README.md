@@ -22,6 +22,10 @@ Where it all begins: https://www.youtube.com/watch?v=MnrJzXM7a6o
 13. [LeetCode: First Unique Character in a String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/881/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/013_First_Unique_Character.playground/Contents.swift) - t=O(N), s=O(N)
 14. [LeetCode: Valid Anagram](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/882/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/014_Valid_Anagram.playground/Contents.swift) - t=O(N), s=O(N)
 15. [LeetCode: Valid Palindrome](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/883/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/015_Valid_Palindrome.playground/Contents.swift) - t=O(N), s=O(N)
+16. [LeetCode: Implement strStr()](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/885/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/016_%20Implement_strStr.playground/Contents.swift) - t=O(NxM), s=O(NxM)
+17. [Leetcode: Count And Say](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/886/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/017_Count_And_Say.playground/Contents.swift) - t=O(NxM), s=O(M)
+18. [LeetCode: The Longest Common Prefix](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/887/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/018_Longest_Common_Prefix.playground/Contents.swift) - t=O(MxN^2), s=O(1)
+
 
 
 
