@@ -28,7 +28,9 @@ Where it all begins: https://www.youtube.com/watch?v=MnrJzXM7a6o
 19. [LeetCode: Delete Node in a Linked List](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/019_Delete_Node_In_Linked_List.playground/Contents.swift) - t=O(1), s=O(1)
 20. [LeetCode: Remove Nth Node From End of List](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/020_Remove_Nth_Item_From_End_Of_The_List.playground/Contents.swift) - t=O(N), s=O(1)
 21. [LeetCode: Reverse Linked List](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/021_Reverse_Linked_List.playground/Contents.swift) - t=O(N), s=O(1)
-
+22. [LeetCode: Merge Two Sorted List](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/771/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/022_Merge_Two_sorted_List.playground/Contents.swift) - t=O(M+N), s=O(1)
+23. [LeetCode: Palindrome Linked List](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/772/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/023_Palindrome_Linked_List.playground/Contents.swift) - t=O(N), s=O(N)
+24. [LeetCode: Detect Cycle in Linked List](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/773/) --> [Swift Solution](https://github.com/burhanaras/iOS-Interview-University/blob/main/Top%20Interview%20Questions/024_Detect_Cycle_In_LinkedList.playground/Contents.swift) - t=O(N), s=O(1)
 
 
 
