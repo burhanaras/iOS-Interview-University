@@ -183,7 +183,7 @@ extension AdjacencyMatrix: CustomStringConvertible {
 
 // Graphs in Action
 
-let graph = AdjacencyMatrix<String>()
+let graph = AdjacencyList<String>()
 
 let singapore = graph.createVertex(data: "Singapore")
 let tokyo = graph.createVertex(data: "Tokyo")
@@ -208,3 +208,43 @@ graph.addEdge(.undirected, from: sanFrancisco, to: seattle, weight: 218)
 graph.addEdge(.undirected, from: austinTexas, to: sanFrancisco, weight: 297)
 
 print(graph)
+
+
+/*
+
+ Expected Result:
+
+ 5: Washington DC has 4 edges
+     337.0 to San Francisco
+     300.0 to Tokyo
+     292.0 to Austin Texas
+     277.0 to Seattle
+ 3: Detroit has 2 edges
+     450.0 to Tokyo
+     50.0 to Austin Texas
+ 4: San Francisco has 4 edges
+     600.0 to Hong Kong
+     337.0 to Washington DC
+     297.0 to Austin Texas
+     218.0 to Seattle
+ 6: Austin Texas has 3 edges
+     297.0 to San Francisco
+     292.0 to Washington DC
+     50.0 to Detroit
+ 2: Hong Kong has 3 edges
+     600.0 to San Francisco
+     300.0 to Singapore
+     250.0 to Tokyo
+ 0: Singapore has 2 edges
+     500.0 to Tokyo
+     300.0 to Hong Kong
+ 7: Seattle has 2 edges
+     277.0 to Washington DC
+     218.0 to San Francisco
+ 1: Tokyo has 4 edges
+     500.0 to Singapore
+     450.0 to Detroit
+     300.0 to Washington DC
+     250.0 to Hong Kong
+ 
+ */
